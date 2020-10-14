@@ -1,4 +1,6 @@
 # Time Formatter in Dart
+This is a FORK of tpscrpt/time_formatter which displays the Strings in german.
+
 This library takes UNIX (milliseconds) timestamps and converts them to pretty, human-readable time formats.
 
 ## Using
