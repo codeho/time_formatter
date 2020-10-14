@@ -48,7 +48,7 @@ String formatTime(int timestamp) {
 ///   returns ("Just now" OR "X seconds")
 String countSeconds(int difference) {
   int count = (difference / 1000).truncate();
-  return count > 1 ? count.toString() + ' Sekunden' : 'wenigen Sekunden';
+  return count > 1 ? count.toString() + ' Sekunden' : 'Gerade eben';
 }
 
 /// Converts the time difference to a number of minutes.
